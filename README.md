@@ -20,7 +20,7 @@ This repository is a curated collection of Kyverno policies designed to enforce 
 ## Must-Have Policies
 
 These policies are considered essential for establishing a baseline security and reliability posture in any Kubernetes cluster.
-<a name="">psp</a>
+<a name="psp"></a>
 ### Pod Security Standards (Baseline & Restricted)
 
 These policies enforce a secure context for running pods, aligning with the official Kubernetes Pod Security Standards.
@@ -84,7 +84,7 @@ Implement baseline network controls to isolate workloads and reduce the attack s
 | **Disallow Localhost ExternalName Services** | [Official Link](https://kyverno.io/policies/other/disallow-localhost-services/disallow-localhost-services/) | [`Link`](must-have/network-security/disallow-localhost-ExternalName-services.yaml) |
 
 -----
-<a name="">nice-to-have</a>
+<a name="nice-to-have"></a>
 ## Nice-to-Have Policies
 
 > 📝 *Content for this section is coming soon.*
@@ -108,8 +108,8 @@ Implement baseline network controls to isolate workloads and reduce the attack s
 1.  **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/deeepak-tyagii/kyverno-policies.git
+    cd kyverno-policies
     ```
 
 2.  **Apply a single policy:**
