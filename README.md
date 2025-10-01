@@ -28,7 +28,7 @@ These policies enforce a secure context for running pods, aligning with the offi
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
 | **Disallow Host Namespaces** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-namespaces/disallow-host-namespaces/) | [`Link`](must-have/pod-security/disallow-host-namespaces.yaml) |
-| **Disallow Host Ports** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-ports/disallow-host-ports/) | [`Link`](must-have/pod-security/disallow-hostPorts.yaml) |
+| **Disallow Host Ports** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-ports/disallow-host-ports/) | [`Link`](must-have/pod-security-standards/disallow-hostPath.yaml) |
 | **Disallow hostPath Volumes** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-path/disallow-host-path/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/disallow-host-path.yaml) |
 | **Disallow Privileged Containers** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-privileged-containers/disallow-privileged-containers/) | [`Link`](must-have/pod-security/disallow-privileged-containers.yaml) |
 | **Require runAsNonRoot** | [Official Link](https://kyverno.io/policies/pod-security/restricted/require-run-as-nonroot/require-run-as-nonroot/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/require-run-as-nonroot.yaml) |
