@@ -27,16 +27,16 @@ These policies enforce a secure context for running pods, aligning with the offi
 
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
-| **Disallow Host Namespaces** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-namespaces/disallow-host-namespaces/) | [`Link`](must-have/pod-security/disallow-host-namespaces.yaml) |
-| **Disallow Host Ports** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-ports/disallow-host-ports/) | [`Link`](must-have/pod-security-standards/disallow-hostPath.yaml) |
-| **Disallow hostPath Volumes** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-path/disallow-host-path/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/disallow-host-path.yaml) |
-| **Disallow Privileged Containers** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-privileged-containers/disallow-privileged-containers/) | [`Link`](must-have/pod-security/disallow-privileged-containers.yaml) |
-| **Require runAsNonRoot** | [Official Link](https://kyverno.io/policies/pod-security/restricted/require-run-as-nonroot/require-run-as-nonroot/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/require-run-as-nonroot.yaml) |
-| **Drop All Capabilities** | [Official Link](https://kyverno.io/policies/best-practices/require-drop-all/require-drop-all/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/drop-all-capabilities.yaml) |
-| **Drop CAP\_NET\_RAW** | [Official Link](https://kyverno.io/policies/best-practices/require-drop-cap-net-raw/require-drop-cap-net-raw/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/drop-cap-net-raw.yaml) |
+| **Disallow Host Namespaces** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-namespaces/disallow-host-namespaces/) | [`Link`](must-have/pod-security-standards/disallow-host-namespaces.yaml) |
+| **Disallow Host Ports** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-ports/disallow-host-ports/) | [`Link`](must-have/pod-security-standards/disallow-hostPorts.yaml) |
+| **Disallow hostPath Volumes** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-host-path/disallow-host-path/) | [`Link`](must-have/pod-security-standards/disallow-hostPath.yaml) |
+| **Disallow Privileged Containers** | [Official Link](https://kyverno.io/policies/pod-security/baseline/disallow-privileged-containers/disallow-privileged-containers/) | [`Link`](must-have/pod-security-standards/disallow-privileged-containers.yaml) |
+| **Require runAsNonRoot** | [Official Link](https://kyverno.io/policies/pod-security/restricted/require-run-as-nonroot/require-run-as-nonroot/) | [`Link`](must-have/pod-security-standards/require-runAsNonRoot.yaml) |
+| **Drop All Capabilities** | [Official Link](https://kyverno.io/policies/best-practices/require-drop-all/require-drop-all/) | [`Link`](must-have/pod-security-standards/drop-all-capabilities.yaml) |
+| **Drop CAP\_NET\_RAW** | [Official Link](https://kyverno.io/policies/best-practices/require-drop-cap-net-raw/require-drop-cap-net-raw/) | [`Link`](must-have/pod-security-standards/drop-CAP_NET_RAW.yaml) |
 | **Disallow Capabilities (Strict)** | [Official Link](https://kyverno.io/policies/pod-security/restricted/disallow-capabilities-strict/disallow-capabilities-strict/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/disallow-capabilities-strict.yaml) |
-| **Restrict Volume Types** | [Official Link](https://kyverno.io/policies/pod-security/restricted/restrict-volume-types/restrict-volume-types/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/restrict-volume-types.yaml) |
-| **Restrict Seccomp** | [Official Link](https://kyverno.io/policies/pod-security/baseline/restrict-seccomp/restrict-seccomp/) | [`Link`](https://www.google.com/search?q=./must-have/pod-security/restrict-seccomp.yaml) |
+| **Restrict Volume Types** | [Official Link](https://kyverno.io/policies/pod-security/restricted/restrict-volume-types/restrict-volume-types/) | [`Link`](must-have/pod-security-standards/restrict-volume-types.yaml) |
+| **Restrict Seccomp** | [Official Link](https://kyverno.io/policies/pod-security/baseline/restrict-seccomp/restrict-seccomp/) | [`Link`](must-have/pod-security-standards/restrict-seccomp.yaml) |
 <a name="resource-management"></a>
 ### Resource Management
 
@@ -44,10 +44,10 @@ Ensure that all workloads are good cluster citizens by defining resource request
 
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
-| **Require Pod Requests and Limits** | [Official Link](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [`Link`](https://www.google.com/search?q=./must-have/resource-management/require-pod-requests-limits.yaml) |
-| **Add Default Resources** | [Official Link](https://kyverno.io/policies/other/add-default-resources/add-default-resources/) | [`Link`](https://www.google.com/search?q=./must-have/resource-management/add-default-resources.yaml) |
-| **Enforce Resources as Ratio** | [Official Link](https://kyverno.io/policies/other/enforce-resources-as-ratio/enforce-resources-as-ratio/) | [`Link`](https://www.google.com/search?q=./must-have/resource-management/enforce-resources-as-ratio.yaml) |
-| **Add emptyDir sizeLimit** | [Official Link](https://kyverno.io/policies/other/add-emptydir-sizelimit/add-emptydir-sizelimit/) | [`Link`](https://www.google.com/search?q=./must-have/resource-management/add-emptydir-sizelimit.yaml) |
+| **Require Pod Requests and Limits** | [Official Link](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [`Link`](must-have/resource-management/require-pod-requests-and-limits.yaml) |
+| **Add Default Resources** | [Official Link](https://kyverno.io/policies/other/add-default-resources/add-default-resources/) | [`Link`](must-have/resource-management/add-default-resources.yaml) |
+| **Enforce Resources as Ratio** | [Official Link](https://kyverno.io/policies/other/enforce-resources-as-ratio/enforce-resources-as-ratio/) | [`Link`](must-have/resource-management/enforce-resources-as-ratio.yaml) |
+| **Add emptyDir sizeLimit** | [Official Link](https://kyverno.io/policies/other/add-emptydir-sizelimit/add-emptydir-sizelimit/) | [`Link`](must-have/resource-management/add-emptyDir-sizeLimit.yaml) |
 <a name="image-security"></a>
 ### Image Security
 
@@ -55,11 +55,11 @@ Control the container images running in your cluster to prevent known vulnerabil
 
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
-| **Disallow Latest Tag** | [Official Link](https://kyverno.io/policies/best-practices/disallow-latest-tag/disallow-latest-tag/) | [`Link`](https://www.google.com/search?q=./must-have/image-security/disallow-latest-tag.yaml) |
-| **Restrict Image Registries** | [Official Link](https://kyverno.io/policies/best-practices/restrict-image-registries/restrict-image-registries/) | [`Link`](https://www.google.com/search?q=./must-have/image-security/restrict-image-registries.yaml) |
-| **Check Image Base** | [Official Link](https://kyverno.io/policies/other/require-base-image/require-base-image/) | [`Link`](https://www.google.com/search?q=./must-have/image-security/check-image-base.yaml) |
-| **Block Stale Images** | [Official Link](https://kyverno.io/policies/other/block-stale-images/block-stale-images/) | [`Link`](https://www.google.com/search?q=./must-have/image-security/block-stale-images.yaml) |
-| **Block Large Images** | [Official Link](https://kyverno.io/policies/other/block-large-images/block-large-images/) | [`Link`](https://www.google.com/search?q=./must-have/image-security/block-large-images.yaml) |
+| **Disallow Latest Tag** | [Official Link](https://kyverno.io/policies/best-practices/disallow-latest-tag/disallow-latest-tag/) | [`Link`](must-have/image-security/disallow-latest-tag.yaml) |
+| **Restrict Image Registries** | [Official Link](https://kyverno.io/policies/best-practices/restrict-image-registries/restrict-image-registries/) | [`Link`](must-have/image-security/restrict-image-registries.yaml) |
+| **Check Image Base** | [Official Link](https://kyverno.io/policies/other/require-base-image/require-base-image/) | [`Link`](must-have/image-security/check-image-base.yaml) |
+| **Block Stale Images** | [Official Link](https://kyverno.io/policies/other/block-stale-images/block-stale-images/) | [`Link`](must-have/image-security/block-stale-images.yaml) |
+| **Block Large Images** | [Official Link](https://kyverno.io/policies/other/block-large-images/block-large-images/) | [`Link`](must-have/image-security/block-large-images.yaml) |
 <a name="access-control"></a>
 ### Access Control
 
@@ -67,10 +67,10 @@ Enforce the principle of least privilege for service accounts and avoid using in
 
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
-| **Disallow Default Namespace** | [Official Link](https://kyverno.io/policies/best-practices/disallow-default-namespace/disallow-default-namespace/) | [`Link`](https://www.google.com/search?q=./must-have/access-control/disallow-default-namespace.yaml) |
-| **Check ServiceAccount** | [Official Link](https://kyverno.io/policies/other/check-serviceaccount/check-serviceaccount/) | [`Link`](https://www.google.com/search?q=./must-have/access-control/check-serviceaccount.yaml) |
-| **Check Long-Lived Secrets in ServiceAccounts** | [Official Link](https://kyverno.io/policies/other/check-serviceaccount-secrets/check-serviceaccount-secrets/) | [`Link`](https://www.google.com/search?q=./must-have/access-control/check-serviceaccount-secrets.yaml) |
-| **Disallow automountServiceAccountToken** | [Official Link](https://kyverno.io/policies/other/disable-automountserviceaccounttoken/disable-automountserviceaccounttoken/) | [`Link`](https://www.google.com/search?q=./must-have/access-control/disallow-automountserviceaccounttoken.yaml) |
+| **Disallow Default Namespace** | [Official Link](https://kyverno.io/policies/best-practices/disallow-default-namespace/disallow-default-namespace/) | [`Link`](must-have/access-control/disallow-default-namespace.yaml) |
+| **Check ServiceAccount** | [Official Link](https://kyverno.io/policies/other/check-serviceaccount/check-serviceaccount/) | [`Link`](must-have/access-control/check-serviceAccount.yaml) |
+| **Check Long-Lived Secrets in ServiceAccounts** | [Official Link](https://kyverno.io/policies/other/check-serviceaccount-secrets/check-serviceaccount-secrets/) | [`Link`](must-have/access-control/check-long-lived-secrets-in-serviceAccounts.yaml) |
+| **Disallow automountServiceAccountToken** | [Official Link](https://kyverno.io/policies/other/disable-automountserviceaccounttoken/disable-automountserviceaccounttoken/) | [`Link`](must-have/access-control/disallow-automountServiceAccountToken.yaml) |
 <a name="network-security"></a>
 ### Network Security
 
@@ -78,10 +78,10 @@ Implement baseline network controls to isolate workloads and reduce the attack s
 
 | Policy | Kyverno Documentation | YAML File |
 | :--- | :--- | :--- |
-| **Add Network Policy (Default-Deny)** | [Official Link](https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/) | [`Link`](https://www.google.com/search?q=./must-have/network-security/add-network-policy-default-deny.yaml) |
-| **Add Network Policy for DNS** | [Official Link](https://kyverno.io/policies/best-practices/add-networkpolicy-dns/add-networkpolicy-dns/) | [`Link`](https://www.google.com/search?q=./must-have/network-security/add-network-policy-dns.yaml) |
-| **Disallow NodePort** | [Official Link](https://kyverno.io/policies/best-practices/restrict-node-port/restrict-node-port/) | [`Link`](https://www.google.com/search?q=./must-have/network-security/disallow-nodeport.yaml) |
-| **Disallow Localhost ExternalName Services** | [Official Link](https://kyverno.io/policies/other/disallow-localhost-services/disallow-localhost-services/) | [`Link`](https://www.google.com/search?q=./must-have/network-security/disallow-localhost-externalname.yaml) |
+| **Add Network Policy (Default-Deny)** | [Official Link](https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/) | [`Link`](must-have/network-security/add-network-policy-(Default-Deny).yaml) |
+| **Add Network Policy for DNS** | [Official Link](https://kyverno.io/policies/best-practices/add-networkpolicy-dns/add-networkpolicy-dns/) | [`Link`](must-have/network-security/add-network-policy-for-DNS.yaml) |
+| **Disallow NodePort** | [Official Link](https://kyverno.io/policies/best-practices/restrict-node-port/restrict-node-port/) | [`Link`](must-have/network-security/disallow-nodePort.yaml) |
+| **Disallow Localhost ExternalName Services** | [Official Link](https://kyverno.io/policies/other/disallow-localhost-services/disallow-localhost-services/) | [`Link`](must-have/network-security/disallow-localhost-ExternalName-services.yaml) |
 
 -----
 <a name="">nice-to-have</a>
